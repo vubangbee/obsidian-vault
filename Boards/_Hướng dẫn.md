@@ -8,6 +8,6 @@ ai-first: true
 # Boards – bảng Kanban
 
 > [!info]- For future agent
-> Bảng kéo-thả (Personal, Work...). Mỗi board là 1 note có `kanban-plugin: board`. Cần cài community plugin Kanban mới mở được.
+> Bảng kéo-thả (Personal, Work...). Mỗi board là 1 note có `kanban-plugin: board`. Plugin Kanban v2.0.51 đã kèm sẵn trong `.obsidian/plugins/kanban/`, chỉ cần bật trong Settings → Community plugins.
 
 - Cột là `##` heading, thẻ là dòng `- [ ]`. Xong việc tick, đừng xóa thẻ.

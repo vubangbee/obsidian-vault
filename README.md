@@ -7,8 +7,8 @@ Template demo tiếng Việt, local-first, layout **Obsidian-Style (Human-First)
 
 1. Clone repo này về máy.
 2. Mở Obsidian → Open vault → chọn folder vừa clone. Bật theme `PLN` ở Settings → Appearance nếu thích.
-3. (Tùy chọn) Cài plugin `obsidian-local-rest-api` + `claudian` từ `.obsidian/plugins/` (đã kèm sẵn),
-   bật trong Settings → Community plugins. Muốn bảng Kanban trong `Boards/` thì cài thêm plugin Kanban.
+3. (Tùy chọn) Cài plugin `obsidian-local-rest-api` + `claudian` + `kanban` từ `.obsidian/plugins/` (đã kèm sẵn),
+   bật trong Settings → Community plugins.
    Chạy `install.bat` để kiểm tra cấu trúc.
 
 ## Có gì trong template

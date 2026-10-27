@@ -12,3 +12,4 @@ ai-first: true
 
 - 2026-10-27 – Opencode – Dựng template demo khung Việt (8 folder + Templates + Từ điển KPI + AGENTS/Home/index/log + Bases kanban), sau gọn còn 5 folder + Clippings, đổi `14 Người` → `14 Liên hệ`, kéo `references/vault-schema.md`.
 - 2026-10-27 – Opencode – Setup lại theo Obsidian-Style (Human-First): thay toàn bộ khung Việt bằng 18 folder tiếng Anh (Daily → Reviews) + `_trash/`; migrate Từ điển KPI → `Knowledge/`, giữ Bài content cá nhân; thêm Templates Daily/Project/Task/Person; viết lại AGENTS/Home/index/README/install.bat.
+- 2026-10-27 – Opencode – Cài plugin Kanban v2.0.51 (kèm sẵn main.js/manifest.json/styles.css) + bật trong community-plugins.json.
