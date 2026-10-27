@@ -1,0 +1,14 @@
+# Obsidian - local / secret, không push lên GitHub public
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/hotkeys.json
+
+# Plugin data chứa API key / cert / private key (vd obsidian-local-rest-api)
+.obsidian/plugins/*/data.json
+
+# OS / temp
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
