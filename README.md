@@ -23,6 +23,18 @@ Template demo tiếng Việt, local-first, layout **Obsidian-Style (Human-First)
 - `.agents/skills/` — 49 Agent Skills build từ `eugeniughelbur/obsidian-second-brain`
   (save, capture, ingest, research...), OpenCode/Codex/Copilot tự phát hiện khi chạy từ root vault.
   Xem `.agents/INSTALL.md`.
+
+## Nối OpenCode với Obsidian qua MCP (máy local)
+
+1. Mở vault bằng Obsidian, bật plugin `obsidian-local-rest-api`. Lấy API key trong
+   Settings → Community plugins → Local REST API.
+2. Copy `opencode.json.example` thành `opencode.json` (file này đã ignore, không push),
+   dán API key vào `OBSIDIAN_API_KEY`.
+3. Kiểm tra: `opencode mcp list` phải hiện `✓ obsidian connected`. Obsidian phải mở thì tool
+   mới đọc/ghi được vault đang mở (không phụ thuộc repo này).
+4. Trong Obsidian, mở Claudian → chọn provider `opencode`, trỏ `cliPath` tới file
+   `opencode.exe` (vd `...\npm\node_modules\opencode-ai\bin\opencode.exe`) để chat với
+   opencode ngay trong vault.
 - `references/vault-schema.md` — schema gốc để tự config thêm.
 - `_trash/` — xóa mềm, không xóa cứng.
 

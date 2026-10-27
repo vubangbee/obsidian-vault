@@ -7,6 +7,9 @@
 # Plugin data chứa API key / cert / private key (vd obsidian-local-rest-api)
 .obsidian/plugins/*/data.json
 
+# Opencode local (chứa API key thật) — xem opencode.json.example
+opencode.json
+
 # OS / temp
 .DS_Store
 Thumbs.db
