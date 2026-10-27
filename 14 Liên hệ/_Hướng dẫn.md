@@ -6,7 +6,7 @@ ai-first: true
 area: lam
 ---
 
-# 14 Người – liên hệ công việc
+# 14 Liên hệ – liên hệ công việc & cá nhân
 
 > [!info]- For future agent
 > 1 note/người cho sale, đối tác, khách hàng dịch vụ (`area: lam`). Người thân/thầy bạn cá nhân cũng ở đây nhưng ghi `area: ca-nhan`. Mỗi note `type: person`.

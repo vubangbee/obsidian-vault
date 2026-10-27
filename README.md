@@ -10,7 +10,7 @@ Template demo tiếng Việt, local-first, dùng ngay + share cộng đồng. Kh
 
 ## Có gì trong template
 
-- Khung 5 folder: `00 Inbox/`, `09 Playbooks/`, `14 Người/`, `16 Học tập/`, `17 Cá nhân/` — mỗi folder có `_Hướng dẫn.md`.
+- Khung 5 folder: `00 Inbox/`, `09 Playbooks/`, `14 Liên hệ/`, `16 Học tập/`, `17 Cá nhân/` — mỗi folder có `_Hướng dẫn.md`.
 - `Templates/Bài content cá nhân.md` — pipeline `idea → outline → drafting → published`, kenh `web | video | social`.
 - `10 Kiến thức/Từ điển KPI & công thức.md` — định nghĩa chuẩn CPA/CPL/ROAS/MER.
 - `AGENTS.md` — sổ tay vận hành cho AI (đọc trước khi ghi). `Home.md` + `index.md` + `log.md` mẫu.
