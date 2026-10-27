@@ -27,3 +27,6 @@ ai-first: true
 
 ## Templates (`Templates/`)
 - Bài content cá nhân (idea→outline→drafting→published, kenh: web|video|social)
+
+## Clippings (`Clippings/`)
+- Bãi đáp Web Clipper — phân loại hằng tuần vào `16 Học tập/`

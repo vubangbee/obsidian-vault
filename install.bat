@@ -10,7 +10,7 @@ for %%F in (AGENTS.md Home.md index.md log.md README.md) do (
 
 echo [2/2] Thu muc (mo Explorer doi chieu neu can):
 echo   00 Inbox / 09 Playbooks / 14 Lien he / 16 Hoc tap / 17 Ca nhan /
-echo   Templates / 10 Kien thuc
+echo   Templates / 10 Kien thuc / Clippings
 if exist "Templates" (echo   OK: Templates\) else (echo   THIEU: Templates\)
 
 echo.

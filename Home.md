@@ -22,6 +22,7 @@ ai-first: true
 
 ## 📚 Học tập (area: hoc)
 - Vào `16 Học tập/_Hướng dẫn` khi học khóa học/sách/video mới.
+- Clipping thô ở `Clippings/` → phân loại hằng tuần, chắt lọc vào đây.
 - Nguyên tắc: học xong phải có `applied_to`, không để kiến thức nằm chết.
 
 ## 📚 Kiến thức nền

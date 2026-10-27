@@ -1,6 +1,6 @@
 # Obsidian Vault — Second-brain template cho Digital Marketing
 
-Template demo tiếng Việt, local-first, dùng ngay + share cộng đồng. Không cần API key ngoài.
+Template demo tiếng Việt, local-first, dùng ngay. Không cần API key ngoài.
 
 ## Cài 3 bước (Windows)
 
@@ -11,6 +11,7 @@ Template demo tiếng Việt, local-first, dùng ngay + share cộng đồng. Kh
 ## Có gì trong template
 
 - Khung 5 folder: `00 Inbox/`, `09 Playbooks/`, `14 Liên hệ/`, `16 Học tập/`, `17 Cá nhân/` — mỗi folder có `_Hướng dẫn.md`.
+- `Clippings/` — bãi đáp Web Clipper, phân loại hằng tuần.
 - `Templates/Bài content cá nhân.md` — pipeline `idea → outline → drafting → published`, kenh `web | video | social`.
 - `10 Kiến thức/Từ điển KPI & công thức.md` — định nghĩa chuẩn CPA/CPL/ROAS/MER.
 - `AGENTS.md` — sổ tay vận hành cho AI (đọc trước khi ghi). `Home.md` + `index.md` + `log.md` mẫu.
@@ -23,4 +24,4 @@ Template demo tiếng Việt, local-first, dùng ngay + share cộng đồng. Kh
 
 ## Mang về vault thật
 
-Copy 1 chiều template → vault thật: `.opencode/`, `Templates/`, `AGENTS.md`. Không bao giờ copy ngược data khách, số liệu, key vào template.
+Copy 1 chiều template → vault thật: `.opencode/`, `Templates/`, `AGENTS.md`. Không bao giờ copy ngược data, số liệu, key vào template.
