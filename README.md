@@ -22,9 +22,8 @@ Template demo tiếng Việt, local-first, layout **Obsidian-Style (Human-First)
 - `AGENTS.md` — sổ tay vận hành cho AI (đọc trước khi ghi). `Home.md` + `index.md` + `log.md` mẫu.
 - `.agents/skills/` — 49 Agent Skills build từ `eugeniughelbur/obsidian-second-brain`
   (save, capture, ingest, research...), OpenCode/Codex/Copilot tự phát hiện khi chạy từ root vault.
+  Đây là bản đúng cho OpenCode (bản `.opencode/commands/` standalone đã deprecated theo upstream).
   Xem `.agents/INSTALL.md`.
-- `.opencode/commands/` — 48 lệnh native cho OpenCode (bản build `--platform opencode`).
-  Giữ `AGENTS.md` của template, không dùng bản upstream kèm theo build.
 
 ## Nối OpenCode với Obsidian qua MCP (máy local)
 
