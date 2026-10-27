@@ -12,7 +12,10 @@ echo [2/2] Thu muc Obsidian-Style:
 echo   Daily / Dev Logs / Tasks / Projects / People / Boards /
 echo   Knowledge / Learning / Ideas / Content / Goals / Health /
 echo   Finances / Jobs / Businesses / Mentions / Reviews / Templates / _trash
-for %%D in (Daily Tasks Projects People Knowledge Learning Ideas Content Goals Reviews Templates _trash) do (
+for %%D in (Daily Tasks Projects People Boards Knowledge Learning Ideas Content Goals Health Finances Jobs Businesses Mentions Reviews Templates _trash) do (
+  if exist "%%D" (echo   OK: %%D\) else (echo   THIEU: %%D\)
+)
+for %%D in ("Dev Logs") do (
   if exist "%%D" (echo   OK: %%D\) else (echo   THIEU: %%D\)
 )
 if exist "references\vault-schema.md" (echo   OK: references\vault-schema.md) else (echo   THIEU: references\vault-schema.md)

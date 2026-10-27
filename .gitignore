@@ -10,6 +10,10 @@
 # Opencode local (chứa API key thật) — xem opencode.json.example
 opencode.json
 
+# Python bytecode (sinh ra khi chạy scripts trong .agents/)
+__pycache__/
+*.pyc
+
 # OS / temp
 .DS_Store
 Thumbs.db
