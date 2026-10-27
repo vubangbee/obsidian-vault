@@ -9,24 +9,24 @@ ai-first: true
 # 🧠 Second-brain – Digital Marketing (template)
 
 > [!info]- For future agent
-> Dashboard mẫu của template demo. Đọc `[[AGENTS]]` trước khi ghi. Template này chỉ demo vòng Inbox + Học tập + Content cá nhân.
+> Dashboard mẫu, layout Obsidian-Style (Human-First). Đọc `[[AGENTS]]` trước khi ghi. Schema đầy đủ: `[[references/vault-schema]]`.
 
 > [!tip] Vòng lặp gợi ý (15 phút/ngày)
-> 1. Ném ý thô vào `[[00 Inbox/_Hướng dẫn|00 Inbox]]`.
-> 2. Học được gì → `16 Học tập/` + điền `applied_to` khi áp dụng.
-> 3. Viết bài → dùng template *Bài content cá nhân*, số liệu ẩn danh.
+> 1. Mở daily hôm nay trong `Daily/` (tạo từ `Templates/Daily.md` nếu chưa có).
+> 2. Việc mới → `Tasks/`, ý tưởng → `Ideas/`, học được gì → `Learning/`.
+> 3. Cuối tuần → `Reviews/` theo khung đã làm – chưa làm – bài học – tuần tới.
 
-## ✍️ Viết content cá nhân
-- Vào `17 Cá nhân/_Hướng dẫn` cho mục tiêu — dùng template *Bài content cá nhân*.
-- Lấy nguyên liệu từ `16 Học tập` đã applied, không copy tên client/ngân sách chi tiết.
+## 📅 Hôm nay
+- Daily: tạo `Daily/YYYY-MM-DD.md` từ template.
+- Tasks đến hạn: lọc `Tasks/` theo `due` + `status: in-progress`.
 
-## 📚 Học tập (area: hoc)
-- Vào `16 Học tập/_Hướng dẫn` khi học khóa học/sách/video mới.
-- Clipping thô ở `Clippings/` → phân loại hằng tuần, chắt lọc vào đây.
-- Nguyên tắc: học xong phải có `applied_to`, không để kiến thức nằm chết.
+## 📁 Dự án đang chạy
+- Xem `Projects/` (lọc `status: active`).
 
-## 📚 Kiến thức nền
-- `[[10 Kiến thức/Từ điển KPI & công thức]]`
+## 📚 Học & viết
+- `Learning/` — sách, khóa học, nội dung đã nạp.
+- `Content/` — lịch đăng + bản nháp (template *Bài content cá nhân*).
+- `Knowledge/` — tra cứu chuẩn (`[[Knowledge/Từ điển KPI & công thức]]`).
 
 ## 🔗 Lối tắt
-[[AGENTS]] · [[index]] · [[log]]
+[[AGENTS]] · [[index]] · [[log]] · [[references/vault-schema]]

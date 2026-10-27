@@ -1,7 +1,7 @@
 # Vault Schema Reference
 
-> Nguồn: `https://github.com/eugeniughelbur/obsidian-second-brain/blob/main/references/vault-schema.md` (kéo về 2026-10-27 để tự config cho template này, không áp nguyên).
-> Template này dùng layout rút gọn (5 folder + Templates + Clippings + 10 Kiến thức), không theo nguyên 2 layout dưới. Đối chiếu khi cần, giữ schema `AGENTS.md` làm chuẩn.
+> Nguồn: `https://github.com/eugeniughelbur/obsidian-second-brain/blob/main/references/vault-schema.md` (kéo về 2026-10-27 để tự config, không áp nguyên).
+> Template này dùng layout Obsidian-Style (Human-First): 18 folder tiếng Anh + `_trash/`. Đối chiếu khi cần, giữ `AGENTS.md` làm chuẩn.
 
 Two layouts are supported. `scripts/bootstrap_vault.py` builds the Obsidian-style layout by default and the wiki-style one with `--style wiki`.
 

@@ -10,8 +10,5 @@ ai-first: true
 > [!info]- For future agent
 > Nhật ký theo thời gian của mọi thao tác lớn trên vault. Mỗi phiên agent làm thay đổi lớn thì thêm 1 dòng ở cuối, định dạng `YYYY-MM-DD HH:mm – ai – việc`.
 
-- 2026-10-27 – Opencode – Dựng template demo: 8 folder khung + Templates/Bài content cá nhân + Từ điển KPI + AGENTS/Home/index/log + Bases/Quyết định (table + kanban).
-- 2026-10-27 – Opencode – Gọn template theo chốt: bỏ `Bases/`, `08 Quyết định/`, `11 Creative/`, `12 Insight khách hàng/`; còn 5 folder khung + Templates + Từ điển KPI; cập nhật AGENTS/Home/index/README/install.bat.
-- 2026-10-27 – Opencode – Đổi tên `14 Người/` → `14 Liên hệ/` + cập nhật AGENTS/README/install.bat.
-- 2026-10-27 – Opencode – Thêm `Clippings/` (bãi đáp Web Clipper + guide phân loại) + cập nhật AGENTS/index/README/install.bat.
-- 2026-10-27 – Opencode – Kéo `references/vault-schema.md` từ repo gốc về để chủ vault tự config.
+- 2026-10-27 – Opencode – Dựng template demo khung Việt (8 folder + Templates + Từ điển KPI + AGENTS/Home/index/log + Bases kanban), sau gọn còn 5 folder + Clippings, đổi `14 Người` → `14 Liên hệ`, kéo `references/vault-schema.md`.
+- 2026-10-27 – Opencode – Setup lại theo Obsidian-Style (Human-First): thay toàn bộ khung Việt bằng 18 folder tiếng Anh (Daily → Reviews) + `_trash/`; migrate Từ điển KPI → `Knowledge/`, giữ Bài content cá nhân; thêm Templates Daily/Project/Task/Person; viết lại AGENTS/Home/index/README/install.bat.
