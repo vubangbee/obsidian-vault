@@ -15,3 +15,4 @@ ai-first: true
 - 2026-10-27 – Opencode – Cài plugin Kanban v2.0.51 (kèm sẵn main.js/manifest.json/styles.css) + bật trong community-plugins.json.
 - 2026-10-27 – Opencode – Dựng Agent Skills build (`--platform agent-skills`, 49 skills vào `.agents/skills/`) + `_CLAUDE.md` trỏ về `AGENTS.md`; bỏ bản opencode cũ vì upstream deprecated.
 - 2026-10-27 – Opencode – Cấu hình MCP `obsidian` (obsidian-mcp-server → Local REST API 27124): global opencode.jsonc + `opencode.json.example` mẫu, `opencode mcp list` báo connected, REST trả đúng vault đang mở.
+- 2026-10-27 – Opencode – Dựng bản OpenCode native (`--platform opencode`, 48 lệnh vào `.opencode/commands/`); giữ `AGENTS.md` template, bỏ bản upstream.

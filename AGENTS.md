@@ -130,5 +130,7 @@ Dùng đúng định nghĩa trong `[[Knowledge/Từ điển KPI & công thức]]
 - Schema tham khảo: `[[references/vault-schema]]`
 - Agent Skills (`obsidian-second-brain`, 49 skills trong `.agents/skills/`): ưu tiên dùng cho mọi thao tác vault
   (save, capture, log, decide, research, health...). File `_CLAUDE.md` ở root trỏ về đây cho skill discovery.
+- Lệnh native OpenCode (`.opencode/commands/`, 48 lệnh từ bản build `--platform opencode`): dùng khi gọi
+  lệnh trực tiếp trong OpenCode.
 - MCP `obsidian` (local, qua Local REST API): opencode đọc/ghi vault Obsidian đang mở. Key thật nằm ở
   `opencode.json` local (đã ignore) — xem `opencode.json.example` + README. Không bao giờ paste key vào note.
