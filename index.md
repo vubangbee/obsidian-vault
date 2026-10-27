@@ -16,6 +16,7 @@ ai-first: true
 - `[[Home]]` – dashboard
 - `[[log]]` – nhật ký thao tác vault
 - `[[references/vault-schema]]` – schema gốc (layout, frontmatter, naming)
+- `.agents/skills/` – 49 Agent Skills (save, capture, research...) cho OpenCode/Codex/Copilot
 
 ## Hằng ngày & việc
 - `Daily/` – 1 note/ngày `YYYY-MM-DD.md`

@@ -1,8 +1,5 @@
 # Vault Schema Reference
 
-> Nguồn: `https://github.com/eugeniughelbur/obsidian-second-brain/blob/main/references/vault-schema.md` (kéo về 2026-10-27 để tự config, không áp nguyên).
-> Template này dùng layout Obsidian-Style (Human-First): 18 folder tiếng Anh + `_trash/`. Đối chiếu khi cần, giữ `AGENTS.md` làm chuẩn.
-
 Two layouts are supported. `scripts/bootstrap_vault.py` builds the Obsidian-style layout by default and the wiki-style one with `--style wiki`.
 
 ## Wiki-Style (LLM-First)
@@ -116,7 +113,7 @@ Your Vault/
 ├── Goals/                      ← Annual and life goals
 ├── Health/                     ← Health tracking
 ├── Finances/                   ← Monthly finance notes
-├── Jobs/                      ← Employment / contract roles
+├── Jobs/                       ← Employment / contract roles
 ├── Businesses/                 ← Companies you own
 ├── Mentions/                   ← Recognition log
 ├── Reviews/                    ← Weekly / monthly reviews
@@ -204,7 +201,7 @@ timeline:                       # bi-temporal facts - never delete, only append
   - fact: "CTO at Acme Corp"
     from: 2024-01-01            # event time: when the fact was true
     until: 2026-04-07
-    learned: 2026-02-23         # transaction time: when the vault learned it from
+    learned: 2026-02-23         # transaction time: when the vault learned it
   - fact: "Architect at Acme Corp"
     from: 2026-04-07
     until: present
@@ -238,7 +235,7 @@ source_type: article   # article | transcript | pdf | video
 source_url: "https://..."
 source_path: ""       # local original, e.g. First-Brain/Meetings/Discussion.md; absolute outside vault
 source_file_hash: ""  # optional full SHA-256 of original bytes for directory progress
-content_hash: ""      # first 16 hex of SHA-256 over the canonical text (see /obsidian-ingest step 5); drift detection
+content_hash: ""       # first 16 hex of SHA-256 over the canonical text (see /obsidian-ingest step 5); drift detection
 ---
 ```
 
@@ -318,6 +315,12 @@ target_date: 2026-12-31
 TABLE status, job FROM "wiki/projects"
 WHERE contains(tags, "project") AND status = "active"
 SORT file.name ASC
+```
+
+### Recent daily notes
+```dataview
+TABLE date, mood, energy FROM "wiki/daily"
+SORT date DESC
 LIMIT 7
 ```
 

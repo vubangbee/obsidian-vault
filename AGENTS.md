@@ -128,3 +128,5 @@ Dùng đúng định nghĩa trong `[[Knowledge/Từ điển KPI & công thức]]
 - Mục lục: `[[index]]`
 - Nhật ký thao tác: `[[log]]`
 - Schema tham khảo: `[[references/vault-schema]]`
+- Agent Skills (`obsidian-second-brain`, 49 skills trong `.agents/skills/`): ưu tiên dùng cho mọi thao tác vault
+  (save, capture, log, decide, research, health...). File `_CLAUDE.md` ở root trỏ về đây cho skill discovery.

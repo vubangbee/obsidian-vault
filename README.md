@@ -20,6 +20,9 @@ Template demo tiếng Việt, local-first, layout **Obsidian-Style (Human-First)
   `idea → outline → drafting → published`, kenh `web | video | social`).
 - `Knowledge/Từ điển KPI & công thức.md` — định nghĩa chuẩn CPA/CPL/ROAS/MER.
 - `AGENTS.md` — sổ tay vận hành cho AI (đọc trước khi ghi). `Home.md` + `index.md` + `log.md` mẫu.
+- `.agents/skills/` — 49 Agent Skills build từ `eugeniughelbur/obsidian-second-brain`
+  (save, capture, ingest, research...), OpenCode/Codex/Copilot tự phát hiện khi chạy từ root vault.
+  Xem `.agents/INSTALL.md`.
 - `references/vault-schema.md` — schema gốc để tự config thêm.
 - `_trash/` — xóa mềm, không xóa cứng.
 
