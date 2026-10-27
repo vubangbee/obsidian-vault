@@ -10,10 +10,9 @@ Template demo tiếng Việt, local-first, dùng ngay + share cộng đồng. Kh
 
 ## Có gì trong template
 
-- Khung 8 folder: `00 Inbox/`, `08 Quyết định/`, `09 Playbooks/`, `11 Creative/`, `12 Insight khách hàng/`, `14 Người/`, `16 Học tập/`, `17 Cá nhân/` — mỗi folder có `_Hướng dẫn.md`.
+- Khung 5 folder: `00 Inbox/`, `09 Playbooks/`, `14 Người/`, `16 Học tập/`, `17 Cá nhân/` — mỗi folder có `_Hướng dẫn.md`.
 - `Templates/Bài content cá nhân.md` — pipeline `idea → outline → drafting → published`, kenh `web | video | social`.
 - `10 Kiến thức/Từ điển KPI & công thức.md` — định nghĩa chuẩn CPA/CPL/ROAS/MER.
-- `Bases/Quyết định.base` — bảng Cần kiểm lại / Theo loại / Tất cả + view Kanban theo `outcome` (kéo-thả đổi trạng thái, không cần plugin Kanban ngoài).
 - `AGENTS.md` — sổ tay vận hành cho AI (đọc trước khi ghi). `Home.md` + `index.md` + `log.md` mẫu.
 
 ## Quy ước nhanh
@@ -24,4 +23,4 @@ Template demo tiếng Việt, local-first, dùng ngay + share cộng đồng. Kh
 
 ## Mang về vault thật
 
-Copy 1 chiều template → vault thật: `.opencode/`, `Templates/`, `Bases/`, `AGENTS.md`. Không bao giờ copy ngược data khách, số liệu, key vào template.
+Copy 1 chiều template → vault thật: `.opencode/`, `Templates/`, `AGENTS.md`. Không bao giờ copy ngược data khách, số liệu, key vào template.

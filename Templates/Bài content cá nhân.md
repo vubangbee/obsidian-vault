@@ -9,7 +9,7 @@ status: idea            # idea | outline | drafting | published
 publish: false          # true = cho lên web, false = nháp trong vault
 kenh: ""                # web | video | social
 pillar: ""              # ads | content | funnel | AI | insight-nganh
-du_tren: ""             # vd: "[[16 Học tập/...]] + [[12 Insight khách hàng/...]]"
+du_tren: ""             # vd: "[[16 Học tập/...]]"
 proof_note: ""          # proof ẩn danh: %, as of tháng, không tên client
 
 # --- Docusaurus / web (giữ nguyên key để export hiểu) ---
@@ -28,7 +28,7 @@ tags: ["content"]
 # {{title}}
 
 > [!info]- For future agent
-> Content cá nhân (area: ca-nhan), tạo {{date:YYYY-MM-DD}}. Dựa trên `du_tren`. Số liệu đã ẩn danh. Export web: chỉ khi `status: published + publish: true`. Khi export: `[[wikilink]]` → `[text](/slug)`, callout `> [!info]` → `:::info`, bỏ `![[Bases/...]]`, ảnh chép vào `static/img/content/`.
+> Content cá nhân (area: ca-nhan), tạo {{date:YYYY-MM-DD}}. Dựa trên `du_tren`. Số liệu đã ẩn danh. Export web: chỉ khi `status: published + publish: true`. Khi export: `[[wikilink]]` → `[text](/slug)`, callout `> [!info]` → `:::info`, bỏ embed `![[...]]`, ảnh chép vào `static/img/content/`.
 
 ## Dựa trên (bắt buộc, không public nguyên văn)
 - Kiến thức:

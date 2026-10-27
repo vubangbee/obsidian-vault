@@ -16,9 +16,6 @@ ai-first: true
 - `[[Home]]` – dashboard
 - `[[log]]` – nhật ký thao tác vault
 
-## Quyết định (`08 Quyết định/`)
-- `[[Bases/Quyết định]]` – bảng + kanban theo dõi quyết định
-
 ## Kiến thức (`10 Kiến thức/`)
 - `[[10 Kiến thức/Từ điển KPI & công thức]]`
 
@@ -30,6 +27,3 @@ ai-first: true
 
 ## Templates (`Templates/`)
 - Bài content cá nhân (idea→outline→drafting→published, kenh: web|video|social)
-
-## Bases (`Bases/`)
-- Quyết định (bảng Cần kiểm lại / Theo loại / Tất cả + kanban Trạng thái)

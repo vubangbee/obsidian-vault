@@ -12,4 +12,4 @@ area: chung
 > Mọi ý tưởng, quan sát, link, ảnh chụp chưa phân loại đều ném vào đây. Mỗi thứ Hai (review tuần), phân loại vào đúng thư mục theo `AGENTS.md`.
 
 - Không cần định dạng; một dòng cũng được.
-- Khi phân loại: chuyển thành quyết định / insight / creative / học tập, hoặc xóa mềm vào `_trash/`.
+- Khi phân loại: chuyển thành học tập / content / người, hoặc xóa mềm vào `_trash/`.
