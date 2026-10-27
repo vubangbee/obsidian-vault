@@ -1,0 +1,63 @@
+filters:
+  and:
+    - type == "decision"
+    - file.ext == "md"
+    - '!file.inFolder("Templates")'
+formulas:
+  outcome_icon: if(outcome == "good", "✅", if(outcome == "bad", "❌", if(outcome == "neutral", "➖", "⏳")))
+  days_to_review: if(review_on, (date(review_on) - today()).days, "")
+properties:
+  formula.outcome_icon:
+    displayName: " "
+  formula.days_to_review:
+    displayName: Còn (ngày) tới kiểm lại
+  file.name:
+    displayName: Quyết định
+  amount_before:
+    displayName: Trước
+  amount_after:
+    displayName: Sau
+views:
+  - type: table
+    name: Cần kiểm lại
+    filters: outcome == "pending"
+    order:
+      - formula.outcome_icon
+      - file.name
+      - decision
+      - campaign
+      - review_on
+      - formula.days_to_review
+  - type: table
+    name: Theo loại
+    groupBy:
+      property: decision
+      direction: ASC
+    order:
+      - formula.outcome_icon
+      - file.name
+      - date
+      - amount_before
+      - amount_after
+      - outcome
+  - type: table
+    name: Tất cả
+    order:
+      - formula.outcome_icon
+      - file.name
+      - date
+      - decision
+      - campaign
+      - outcome
+  - type: kanban
+    name: Trạng thái
+    groupBy:
+      property: outcome
+      direction: ASC
+    order:
+      - file.name
+      - decision
+      - campaign
+      - review_on
+      - amount_before
+      - amount_after
